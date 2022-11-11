@@ -1,20 +1,4 @@
-html {
-    box-sizing: border-box;
-  }
-  *,
-  :after,
-  :before {
-    box-sizing: inherit;
-  }
-  
-  body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    min-height: 100vh;
-  }
-
-  /* colors
+/* colors
   #FAFAFA = background color of the page
   #000000 - black color
   #8B8B8B - gray
@@ -23,4 +7,156 @@ html {
   #407BFF1F - very light blue
   */
 
-  
+
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #8b8b8b;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 60px 20px;
+  // for dev purposes
+  //border: solid 2px red;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+h2 {
+  padding-top: 80px;
+}
+
+hr {
+  width: 60px;
+  margin-top: 10px;
+  border: 2px solid #407bff;
+}
+
+a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.obrazek-cestovatele {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.tlacitka {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.tlacitko-dobrodruzstvi,
+.tlacitko-plaz {
+  padding: 10px 30px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.tlacitko-dobrodruzstvi {
+  background-color: #407bff;
+}
+
+.tlacitko-plaz {
+  background-color: #8b8b8b;
+  margin-top: 10px;
+}
+
+.uvodni-text,
+.text-sluzby,
+.text-delegati {
+  width: 100%;
+  text-align: center;
+}
+
+.uvodni-text {
+  margin: 40px auto;
+}
+
+.text-sluzby,
+.text-delegati {
+  margin: 15px auto 30px auto;
+}
+
+.kontejner-ikon-s-textem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ikony-s-textem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0px 4px 6px #407bff1f;
+  border-radius: 10px;
+}
+
+.text-u-ikon {
+  font-size: 13px;
+  width: 345px;
+}
+
+.text-u-ikon img {
+  height: 40px;
+}
+
+.ikona-mapa,
+.ikona-letadlo {
+  width: 45px;
+  margin-right: 30px;
+}
+
+.ikona-kaktus {
+  width: 40px;
+  margin-right: 30px;
+}
+
+.ikona-palma,
+.ikona-destnik,
+.ikona-karavan {
+  width: 50px;
+  margin-right: 25px;
+}
